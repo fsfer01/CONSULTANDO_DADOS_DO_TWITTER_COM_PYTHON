@@ -1,21 +1,10 @@
-# PROJETO_TWITTER
-Meu primeiro projeto para demonstrar meu conhecimento na área de dados.
+# PROJETO CONSULTANDO DADOS DO TWITTER COM PYTHON.
+Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objetivo deste projeto é:
+• Fazer requisições de uma certa quantidade de tweets com uma detarminada # ou palavra chave.
+• Tratar o resultado, transformando em um data frame.
+• dividindo o data frame em vários data frames, para isso, vamos usar como chave primária o nº do tweet (COMO UM PROTOCOLO OU ALGO DO TIPO).
+• Fazer ingestão em um banco.
 
-Neste projeto, temos:
+#TECNOLOGIAS USADAS:
 
-📚 Seções
-O site é composto por 5 seções diferentes:
-
-Home: Nele temos uma breve apresentação;
-Quem sou: Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
-Projetos: Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
-Serviços: Exibe através de cards os diferentes serviços em que possuo conhecimentos;
-Conhecimentos: Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
-💼 Tecnologias utilizadas
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
-
-HTML;
-Sass;
-JavaScript;
-ScrollReveal;
-SVGInject;
+#DESAFIOS:
