@@ -1,4 +1,4 @@
-# PROJETO CONSULTANDO DADOS DO TWITTER COM PYTHON.
+# PROJETO ETL / CONSULTANDO DADOS DO TWITTER COM PYTHON.
 
 Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objetivo deste projeto é:
 
