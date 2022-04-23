@@ -5,6 +5,6 @@ Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objet
 • dividindo o data frame em vários data frames, para isso, vamos usar como chave primária o nº do tweet (COMO UM PROTOCOLO OU ALGO DO TIPO).
 • Fazer ingestão em um banco.
 
-#TECNOLOGIAS USADAS:
+# TECNOLOGIAS USADAS:
 
-#DESAFIOS:
+# DESAFIOS:
