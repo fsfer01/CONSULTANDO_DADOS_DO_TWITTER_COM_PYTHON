@@ -13,3 +13,9 @@ Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objet
 # TECNOLOGIAS USADAS:
 
 # DESAFIOS:
+
+
+# DIAGRAMA DE RELACIONAMENTO (CHAVE PRIMÁRIA):
+
+![image](https://user-images.githubusercontent.com/78058494/164996180-08b9108a-9bcd-4008-b732-7809c9f2d26c.png)
+
