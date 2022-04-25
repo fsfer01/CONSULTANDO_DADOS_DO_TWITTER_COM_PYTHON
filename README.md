@@ -17,7 +17,11 @@ Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objet
 # 1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
 ![image](https://user-images.githubusercontent.com/78058494/165187939-8954dd36-0236-4071-a228-41a392cdf5c0.png)
 
+As colunas entities, metadata e user estão do modo mostrado no anexo acima. Para resolver esse problema, foi utilizado a biblioteca flatten_json. Segue link da biblioteca e de sua documentação abaixo:
 
+link: https://github.com/amirziai/flatten
+
+![image](https://user-images.githubusercontent.com/78058494/165190806-e4827a9a-e6dc-46bb-90d4-a6d6dec542c0.png)
 
 # DIAGRAMA DE RELACIONAMENTO (CHAVE PRIMÁRIA):
 
