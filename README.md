@@ -14,7 +14,7 @@ Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objet
 
 # DESAFIOS:
 
-#1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
+# 1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
 
 
 # DIAGRAMA DE RELACIONAMENTO (CHAVE PRIMÁRIA):
