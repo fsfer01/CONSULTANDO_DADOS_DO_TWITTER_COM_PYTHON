@@ -23,6 +23,10 @@ link: https://github.com/amirziai/flatten
 
 ![image](https://user-images.githubusercontent.com/78058494/165190806-e4827a9a-e6dc-46bb-90d4-a6d6dec542c0.png)
 
+# 2º: ADICIONANDO CHAVE PRIMÁRIA EM OUTRAS TABELAS PARA CRUZAMENTOS FUTUROS.
+
+
+
 # DIAGRAMA DE RELACIONAMENTO (CHAVE PRIMÁRIA):
 
 ![image](https://user-images.githubusercontent.com/78058494/164996180-08b9108a-9bcd-4008-b732-7809c9f2d26c.png)
