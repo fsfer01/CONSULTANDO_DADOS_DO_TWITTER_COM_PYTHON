@@ -20,6 +20,8 @@ Para conseguir rodar esse código localmente, será necessário instalar algumas
 
 ```python
 pip install tweepy
+pip install pandas
+pip install flatten-json
 ```
 
 # DESAFIOS:
