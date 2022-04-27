@@ -12,6 +12,16 @@ Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objet
 
 # TECNOLOGIAS USADAS:
 
+• PYTHON
+
+# REQUISITOS:
+
+Para conseguir rodar esse código localmente, será necessário instalar algumas bibliotecas! Execute os seguintes comandos abaixo:
+
+```python
+pip install tweepy
+```
+
 # DESAFIOS:
 
 # 1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
