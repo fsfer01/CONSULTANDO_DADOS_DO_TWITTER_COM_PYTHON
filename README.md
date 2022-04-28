@@ -24,6 +24,12 @@ pip install pandas
 pip install flatten-json
 ```
 
+Após isso, é necessário também providenciar uma conta de desenvolvedor no Twitter para ter acesso a API. Segue link abaixo de como solicitar:
+
+
+
+[Como solicitar uma API KEY do TWITTER](https://www.youtube.com/watch?v=p4fZLzKodCg).
+
 # DESAFIOS:
 
 # 1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
