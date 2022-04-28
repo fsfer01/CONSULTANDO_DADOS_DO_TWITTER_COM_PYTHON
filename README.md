@@ -35,7 +35,7 @@ Após isso, é necessário também providenciar uma conta de desenvolvedor no Tw
 ## 1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
 ![image](https://user-images.githubusercontent.com/78058494/165187939-8954dd36-0236-4071-a228-41a392cdf5c0.png)
 
-As colunas entities  e user estão do modo mostrado no anexo acima. Para resolver esse problema, foi utilizado a biblioteca flatten_json. Segue link da biblioteca e de sua documentação abaixo:
+As colunas entities  e user estão do modo mostrado no anexo acima. Para resolver esse problema, foi utilizado a biblioteca flatten_json gerar uma espécia de outra tabela de dados através dessas colunas. Segue link da biblioteca e de sua documentação abaixo:
 
 link: https://github.com/amirziai/flatten
 
@@ -43,6 +43,8 @@ link: https://github.com/amirziai/flatten
 
 
 ## 2º: ADICIONANDO CHAVE PRIMÁRIA EM OUTRAS TABELAS PARA CRUZAMENTOS FUTUROS.
+![image](https://user-images.githubusercontent.com/78058494/165651768-f78bb241-90eb-429c-b7e2-67d1438a0766.png)
+
 
 
 
