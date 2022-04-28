@@ -22,6 +22,7 @@ Para conseguir rodar esse código localmente, será necessário instalar algumas
 pip install tweepy
 pip install pandas
 pip install flatten-json
+pip install SQLAlchemy
 ```
 
 Após isso, é necessário também providenciar uma conta de desenvolvedor no Twitter para ter acesso a API. Segue link abaixo de como solicitar:
