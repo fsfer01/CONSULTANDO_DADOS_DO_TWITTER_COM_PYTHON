@@ -23,6 +23,7 @@ pip install tweepy
 pip install pandas
 pip install flatten-json
 pip install SQLAlchemy
+pip install PyMySQL
 ```
 
 Após isso, é necessário também providenciar uma conta de desenvolvedor no Twitter para ter acesso a API. Segue link abaixo de como solicitar:
