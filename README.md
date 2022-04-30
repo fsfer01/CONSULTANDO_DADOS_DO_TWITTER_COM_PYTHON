@@ -52,5 +52,6 @@ link: https://github.com/amirziai/flatten
 
 # DIAGRAMA DE RELACIONAMENTO (CHAVE PRIMÁRIA):
 
-![image](https://user-images.githubusercontent.com/78058494/164996180-08b9108a-9bcd-4008-b732-7809c9f2d26c.png)
+![image](https://user-images.githubusercontent.com/78058494/166114197-cb2a864a-f73c-4100-94a4-024d990e0148.png)
+
 
