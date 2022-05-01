@@ -1,23 +1,19 @@
 ![image](https://user-images.githubusercontent.com/78058494/166161865-829573ee-df20-4c84-8aac-828441c97327.png)
 
 
-
-
 ## RESULTADO DO PROJETO:
 ![CONSULTANDO_DADOS_DO_TWITTER_COM_PYTHON](https://user-images.githubusercontent.com/78058494/166161345-5d16caa0-9683-41cd-a2fa-f7c10e771b24.gif)
 
 
-
-
 # PROJETO ETL / CONSULTANDO DADOS DO TWITTER COM PYTHON.
 
-Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objetivo deste projeto é:
+Meu primeiro projeto público para demonstrar meu conhecimento na área de dados. O Objetivo deste projeto é:
 
-• Fazer requisições de uma certa quantidade de tweets com uma detarminada # ou palavra chave.
+• Coletar os dados através de uma API. Neste caso, estou usando uma querie de busca, retornando todos os tweets com a palavra chave "DADOS".
 
-• Tratar o resultado, transformando em um data frame.
+• Realizar uma modelagem de dados, tratando os dados e transformando eles para facilitar os próximos passos.
 
-• dividindo o data frame em vários data frames, para isso, vamos usar como chave primária o nº do tweet (COMO UM PROTOCOLO OU ALGO DO TIPO).
+• Dividindo um único DF em vários, para colocar em prática um relacionamento entre tabelas.
 
 • Fazer ingestão em um banco.
 
@@ -48,7 +44,7 @@ Após isso, é necessário também providenciar uma conta de desenvolvedor no Tw
 
 # DESAFIOS:
 
-## 1º: COLUNAS COM UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
+## 1º: COLUNAS COMO UMA ESPÉCIE DE DICIONÁRIO, SEGUE IMAGEM ABAIXO:
 ![image](https://user-images.githubusercontent.com/78058494/165187939-8954dd36-0236-4071-a228-41a392cdf5c0.png)
 
 As colunas entities  e user estão do modo mostrado no anexo acima. Para resolver esse problema, foi utilizado a biblioteca flatten_json gerar uma espécia de outra tabela de dados através dessas colunas. Segue link da biblioteca e de sua documentação abaixo:
@@ -56,7 +52,6 @@ As colunas entities  e user estão do modo mostrado no anexo acima. Para resolve
 link: https://github.com/amirziai/flatten
 
 ![image](https://user-images.githubusercontent.com/78058494/165192557-cbc012c2-fb71-43fb-8a10-1764927b2de9.png)
-
 
 ## 2º: ADICIONANDO CHAVE PRIMÁRIA EM OUTRAS TABELAS PARA CRUZAMENTOS FUTUROS.
 ![image](https://user-images.githubusercontent.com/78058494/165651768-f78bb241-90eb-429c-b7e2-67d1438a0766.png)
