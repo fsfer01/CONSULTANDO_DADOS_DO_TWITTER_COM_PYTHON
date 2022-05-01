@@ -58,8 +58,20 @@ link: https://github.com/amirziai/flatten
 ## 2º: ADICIONANDO CHAVE PRIMÁRIA EM OUTRAS TABELAS PARA CRUZAMENTOS FUTUROS.
 ![image](https://user-images.githubusercontent.com/78058494/165651768-f78bb241-90eb-429c-b7e2-67d1438a0766.png)
 
+## 3º: DATA EM FORMATO AMERICADO E EXTENSO.
+![image](https://user-images.githubusercontent.com/78058494/166162213-46d48ad2-37db-4c78-9671-f8c5755466e9.png)
 
+Código abaixo:
 
+```python
+#CONVERTENDO DATA NO DATAFRAME:
+import locale; locale.setlocale(locale.LC_TIME, 'en_US.UTF-8'); 
+dfTweetstabelao['created_at'] = pd.to_datetime(dfTweetstabelao['created_at'], format='%a %b %d %H:%M:%S %z %Y').dt.strftime('%Y-%m-%d %H:%M:%S')
+
+#CONVERTENDO A COLUNA PARA DATA
+dfTweetstabelao['created_at'] = pd.to_datetime(dfTweetstabelao['created_at']) # TRANFORMANDO COLUNA DE STRING PARA DATATIME BR
+dfTweetstabelao['created_at'] = dfTweetstabelao['created_at']-timedelta(hours=3) #SUBTRAINDO 3 HORAS (CONVERTENDO UTC PARA BR)
+```
 
 # DIAGRAMA DE RELACIONAMENTO (CHAVE PRIMÁRIA):
 
