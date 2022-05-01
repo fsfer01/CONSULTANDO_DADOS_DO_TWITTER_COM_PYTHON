@@ -24,6 +24,8 @@ Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objet
 # TECNOLOGIAS USADAS:
 
 • PYTHON
+• TWEEPY - LINK DA DOCUMENTAÇÃO: [Documentação TWEEPY](https://www.tweepy.org/)
+
 
 # REQUISITOS:
 
