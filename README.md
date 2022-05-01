@@ -75,6 +75,35 @@ dfTweetstabelao['created_at'] = dfTweetstabelao['created_at']-timedelta(hours=3)
 
 ![image](https://user-images.githubusercontent.com/78058494/166114197-cb2a864a-f73c-4100-94a4-024d990e0148.png)
 
+# INSERINDO OS DADOS EM UM BANCO DE DADOS:
+
+Código abaixo:
+
+
+```python
+#REALIZANDO CONEXÃO COM O BANCO:
+
+user = 'user_banco'
+senha = 'senha_banco'
+ipbancosql= 'HOST_BANCO'
+porta = 'PORTA_BANCO'
+nomebanco ='DADOS_DO_TWITTER'
+
+engine = sqlalchemy.create_engine('mysql+pymysql://'+user+':'+senha+'@'+ipbancosql+':'+porta+'/'+nomebanco+'') # CONEXÃO
+
+print("CONEXÃO REALIZADA COM SUCESSO!")
+
+#INSERIDO TABELÃO NO BANCO
+basetabelao.to_sql(
+    name = 'tabelao',
+    con = engine,
+    index = False,
+    if_exists ='append'
+)
+```
+
+
+
 # QUERY BÁSICA PARA TESTE:
 ![image](https://user-images.githubusercontent.com/78058494/166163089-af94e371-555d-4b0d-99a4-3f988e8c1dca.png)
 
