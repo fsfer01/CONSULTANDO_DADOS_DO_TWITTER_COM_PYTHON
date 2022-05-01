@@ -77,4 +77,16 @@ dfTweetstabelao['created_at'] = dfTweetstabelao['created_at']-timedelta(hours=3)
 
 ![image](https://user-images.githubusercontent.com/78058494/166114197-cb2a864a-f73c-4100-94a4-024d990e0148.png)
 
+# QUERY BÁSICA PARA TESTE:
+![image](https://user-images.githubusercontent.com/78058494/166163089-af94e371-555d-4b0d-99a4-3f988e8c1dca.png)
+
+''' sql
+select tb.created_at as DATA_CRIACAO_POST,u.screen_name as NAME_USER,U.location as LOCALIZACAO_USER,u.followers_count as QTD_SEGUIDORES,
+u.friends_count as QTD_DE_USERS_SEGUINDO,tb.id as ID_POST, tb.text as TEXTO_POST
+FROM dados_do_twitter.tabelao as tb
+left join dados_do_twitter.users as u on u.ID_POST_TABELAO = tb.id
+
+ORDER BY tb.created_at ASC;
+'''
+
 
