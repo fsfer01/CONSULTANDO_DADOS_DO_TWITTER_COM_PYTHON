@@ -82,10 +82,15 @@ dfTweetstabelao['created_at'] = dfTweetstabelao['created_at']-timedelta(hours=3)
 
 
 ```sql
-select tb.created_at as DATA_CRIACAO_POST,u.screen_name as NAME_USER,U.location as LOCALIZACAO_USER,u.followers_count as QTD_SEGUIDORES,
-u.friends_count as QTD_DE_USERS_SEGUINDO,tb.id as ID_POST, tb.text as TEXTO_POST
-FROM dados_do_twitter.tabelao as tb
-left join dados_do_twitter.users as u on u.ID_POST_TABELAO = tb.id
+SELECT tb.created_at AS DATA_CRIACAO_POST,
+u.screen_name AS NAME_USER,
+U.location AS LOCALIZACAO_USER,
+u.followers_count AS QTD_SEGUIDORES,
+u.friends_count AS QTD_DE_USERS_SEGUINDO,
+tb.id AS ID_POST, tb.text AS TEXTO_POST
+
+FROM dados_do_twitter.tabelao AS tb
+LEFT JOIN dados_do_twitter.users AS u ON u.ID_POST_TABELAO = tb.id
 
 ORDER BY tb.created_at ASC;
 ```
