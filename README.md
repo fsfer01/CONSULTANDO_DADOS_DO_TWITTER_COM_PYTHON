@@ -1,3 +1,9 @@
+![image](https://user-images.githubusercontent.com/78058494/166161865-829573ee-df20-4c84-8aac-828441c97327.png)
+
+
+
+
+## RESULTADO DO PROJETO:
 ![CONSULTANDO_DADOS_DO_TWITTER_COM_PYTHON](https://user-images.githubusercontent.com/78058494/166161345-5d16caa0-9683-41cd-a2fa-f7c10e771b24.gif)
 
 
