@@ -1,3 +1,8 @@
+![CONSULTANDO_DADOS_DO_TWITTER_COM_PYTHON](https://user-images.githubusercontent.com/78058494/166161345-5d16caa0-9683-41cd-a2fa-f7c10e771b24.gif)
+
+
+
+
 # PROJETO ETL / CONSULTANDO DADOS DO TWITTER COM PYTHON.
 
 Meu primeiro projeto para demonstrar meu conhecimento na área de dados. O Objetivo deste projeto é:
