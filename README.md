@@ -77,8 +77,13 @@ dfTweetstabelao['created_at'] = dfTweetstabelao['created_at']-timedelta(hours=3)
 
 # INSERINDO OS DADOS EM UM BANCO DE DADOS:
 
-Código abaixo:
+Neste caso, usei a biblioteca sqlalchemy para fazer a ingestão no Data Source. Existe outros métodos, usarei futuramente em outros projetos. Segue link da documentação abaixo:
 
+Documentação: 
+
+[Documentação](https://docs.sqlalchemy.org/en/14/).
+
+Código abaixo:
 
 ```python
 #REALIZANDO CONEXÃO COM O BANCO:
@@ -101,9 +106,6 @@ basetabelao.to_sql(
     if_exists ='append'
 )
 ```
-
-
-
 # QUERY BÁSICA PARA TESTE:
 ![image](https://user-images.githubusercontent.com/78058494/166163089-af94e371-555d-4b0d-99a4-3f988e8c1dca.png)
 
@@ -121,5 +123,7 @@ LEFT JOIN dados_do_twitter.users AS u ON u.ID_POST_TABELAO = tb.id
 
 ORDER BY tb.created_at ASC;
 ```
+
+Data da ultima atualização: 01/05/2022.
 
 
